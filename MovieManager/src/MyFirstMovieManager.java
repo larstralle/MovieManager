@@ -1,13 +1,19 @@
+// TODO: Auto-generated Javadoc
 /**
- * 
+ * The Class MyFirstMovieManager.
  */
 /**
  * @author Lars
  *
  */
-public class MyFirstMovieManager {
+abstract class MyFirstMovieManager {
 
-	public static void main(String[] args) {
+	/**
+	 * The main method.
+	 *
+	 * @param args the arguments
+	 */
+	public static void main(final String[] args) {
 		// TODO Auto-generated method stub
 		final Performer p1 = new Performer();
 		p1.setFirstname("Robert");
@@ -26,7 +32,7 @@ public class MyFirstMovieManager {
 		d.setFirstname("Joss");
 		d.setGender(Gender.MALE);
 		d.setLastname("Whedon");
-		final Movie m = new Movie(128, "Avengers, the",d);
+		final Movie m = new Movie(128, "Avengers, the", d);
 		m.addPerformer(p1);
 		m.addPerformer(p2);
 		m.addPerformer(p3);

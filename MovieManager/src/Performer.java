@@ -1,40 +1,114 @@
 
+// TODO: Auto-generated Javadoc
+/**
+ * The Class Performer.
+ */
 public class Performer {
+	
+	/** The firstname. */
 	private String firstname;
+	
+	/** The lastname. */
 	private String lastname;
+	
+	/** The gender. */
 	private Gender gender;
+	
+	/** The movie. */
 	private Movie movie;
+	
+	/** The outstanding. */
 	// Performers aren´t outstanding by default
 	private boolean outstanding = false;
-	public String getFirstname() {
+	
+	/**
+	 * Gets the firstname.
+	 *
+	 * @return the firstname
+	 */
+	public final String getFirstname() {
 		return firstname;
 	}
-	public void setFirstname(String firstname) {
-		this.firstname = firstname;
+	
+	/**
+	 * Sets the firstname.
+	 *
+	 * @param pfirstname the new firstname
+	 */
+	public final void setFirstname(final String pfirstname) {
+		this.firstname = pfirstname;
 	}
-	public String getLastname() {
+	
+	/**
+	 * Gets the lastname.
+	 *
+	 * @return the lastname
+	 */
+	public final String getLastname() {
 		return lastname;
 	}
-	public void setLastname(String lastname) {
-		this.lastname = lastname;
+	
+	/**
+	 * Sets the lastname.
+	 *
+	 * @param plastname the new lastname
+	 */
+	public final void setLastname(final String plastname) {
+		this.lastname = plastname;
 	}
-	public Gender getGender() {
+	
+	/**
+	 * Gets the gender.
+	 *
+	 * @return the gender
+	 */
+	public final Gender getGender() {
 		return gender;
 	}
-	public void setGender(Gender gender) {
-		this.gender = gender;
+	
+	/**
+	 * Sets the gender.
+	 *
+	 * @param pgender the new gender
+	 */
+	public final void setGender(final Gender pgender) {
+		this.gender = pgender;
 	}
-	public Movie getMovie() {
+	
+	/**
+	 * Gets the movie.
+	 *
+	 * @return the movie
+	 */
+	public final Movie getMovie() {
 		return movie;
 	}
-	public void setMovie(Movie movie) {
-		this.movie = movie;
+	
+	/**
+	 * Sets the movie.
+	 *
+	 * @param pmovie the new movie
+	 */
+	public final void setMovie(final Movie pmovie) {
+		this.movie = pmovie;
 	}
-	public boolean isOutstanding() {
+	
+	/**
+	 * Checks if is outstanding.
+	 *
+	 * @return true, if is outstanding
+	 */
+	public final boolean isOutstanding() {
 		return outstanding;
 	}
-	public void setOutstanding(boolean outstanding) {
-		this.outstanding = outstanding;
+	
+	/**
+	 * Sets the outstanding.
+	 *
+	 * @param poutstanding the new outstanding
+	 */
+	public final void setOutstanding(final boolean poutstanding) {
+		this.outstanding = poutstanding;
 	}
 	
 }

@@ -1,4 +1,12 @@
 
+// TODO: Auto-generated Javadoc
+/**
+ * The Enum Gender.
+ */
 public enum Gender {
-	MALE, FEMALE;
+	
+	/** The male. */
+	MALE, 
+ /** The female. */
+ FEMALE;
 }
